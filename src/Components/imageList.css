@@ -1,0 +1,14 @@
+.image-list {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(250px, 1fr));
+    grid-gap: 5px;
+    grid-auto-rows: auto;
+}
+
+.image-list img {
+    width: 250px;
+}
+.ui segment {
+    display : absolute;
+}
